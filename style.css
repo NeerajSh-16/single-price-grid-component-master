@@ -66,21 +66,22 @@ button:hover{
     cursor: pointer;
     transform: scale(1.02);
 }
+#bottom-left-section h4{
+    margin-bottom: 27px;
+}
+#price-container{
+    display: flex;
+    align-items: center;
+}
 #price{
     font-weight: 700;
     font-size: 1.4rem;
 }
-#bottom-left-section h4{
-    margin-bottom: 27px;
-}
 #price, #price-frequency{
-    display: inline-block;
     margin-bottom: 8px;
     margin-right: 4px;
 }
 #price-frequency{
-    position: relative;
-    top: -3px;
     font-size: .8rem;
     opacity: .7;
 }
